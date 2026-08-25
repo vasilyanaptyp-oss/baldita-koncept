@@ -1,0 +1,276 @@
+{
+ "downloaded": "2026-08-25",
+ "origin": "baldita.lt (official site, wp-content/uploads)",
+ "assets": [
+  {
+   "file": "darbas-02.webp",
+   "w": 1600,
+   "h": 1067,
+   "bytes": 56396,
+   "source": "https://baldita.lt/wp-content/uploads/1-min-2.jpg",
+   "section_on_source": "virtuves",
+   "processing": "crop + resize only"
+  },
+  {
+   "file": "darbas-03.webp",
+   "w": 1200,
+   "h": 1500,
+   "bytes": 44190,
+   "source": "https://baldita.lt/wp-content/uploads/11-min-1.jpg",
+   "section_on_source": "spintos",
+   "processing": "crop + resize only"
+  },
+  {
+   "file": "darbas-04.webp",
+   "w": 1600,
+   "h": 1067,
+   "bytes": 77098,
+   "source": "https://baldita.lt/wp-content/uploads/57414147_2309089439178678_1547754708507033600_o.jpg",
+   "section_on_source": "virtuves",
+   "processing": "crop + resize only"
+  },
+  {
+   "file": "darbas-05.webp",
+   "w": 1200,
+   "h": 1500,
+   "bytes": 54976,
+   "source": "https://baldita.lt/wp-content/uploads/1-1-5.jpg",
+   "section_on_source": "prieskambario",
+   "processing": "crop + resize only"
+  },
+  {
+   "file": "darbas-06.webp",
+   "w": 1500,
+   "h": 1000,
+   "bytes": 86422,
+   "source": "https://baldita.lt/wp-content/uploads/Virtuves-baldai-1-2.jpg",
+   "section_on_source": "virtuves",
+   "processing": "crop + resize only"
+  },
+  {
+   "file": "darbas-07.webp",
+   "w": 1600,
+   "h": 1067,
+   "bytes": 47152,
+   "source": "https://baldita.lt/wp-content/uploads/8-min-1.jpg",
+   "section_on_source": "svetaines",
+   "processing": "crop + resize only"
+  },
+  {
+   "file": "detale-01.webp",
+   "w": 1500,
+   "h": 1000,
+   "bytes": 32424,
+   "source": "https://baldita.lt/wp-content/uploads/10-min-3.jpg",
+   "section_on_source": "kiti",
+   "processing": "crop + resize only"
+  },
+  {
+   "file": "detale-02.webp",
+   "w": 710,
+   "h": 710,
+   "bytes": 43882,
+   "source": "https://baldita.lt/wp-content/uploads/14.jpg",
+   "section_on_source": "spintos",
+   "processing": "crop + resize only"
+  },
+  {
+   "file": "detale-03.webp",
+   "w": 1400,
+   "h": 933,
+   "bytes": 87612,
+   "source": "https://baldita.lt/wp-content/uploads/1-min-6.jpg",
+   "section_on_source": "kiti",
+   "processing": "crop + resize only"
+  },
+  {
+   "file": "gal-01.webp",
+   "w": 576,
+   "h": 768,
+   "bytes": 44278,
+   "source": "https://baldita.lt/wp-content/uploads/6-5.jpg",
+   "section_on_source": "virtuves",
+   "processing": "crop + resize only"
+  },
+  {
+   "file": "gal-02.webp",
+   "w": 900,
+   "h": 1200,
+   "bytes": 55698,
+   "source": "https://baldita.lt/wp-content/uploads/IMG_20180812_094102.jpg",
+   "section_on_source": "virtuves",
+   "processing": "crop + resize only"
+  },
+  {
+   "file": "gal-03.webp",
+   "w": 931,
+   "h": 698,
+   "bytes": 71738,
+   "source": "https://baldita.lt/wp-content/uploads/9-3.jpg",
+   "section_on_source": "virtuves",
+   "processing": "crop + resize only"
+  },
+  {
+   "file": "gal-04.webp",
+   "w": 912,
+   "h": 684,
+   "bytes": 60202,
+   "source": "https://baldita.lt/wp-content/uploads/4-1-3.jpg",
+   "section_on_source": "virtuves",
+   "processing": "crop + resize only"
+  },
+  {
+   "file": "gal-05.webp",
+   "w": 900,
+   "h": 1200,
+   "bytes": 29214,
+   "source": "https://baldita.lt/wp-content/uploads/1-min-5.jpg",
+   "section_on_source": "kiti",
+   "processing": "crop + resize only"
+  },
+  {
+   "file": "gal-06.webp",
+   "w": 1100,
+   "h": 825,
+   "bytes": 65016,
+   "source": "https://baldita.lt/wp-content/uploads/61277778_2371571166263838_5492614743191453696_o.jpg",
+   "section_on_source": "kiti",
+   "processing": "crop + resize only"
+  },
+  {
+   "file": "gal-07.webp",
+   "w": 512,
+   "h": 682,
+   "bytes": 31694,
+   "source": "https://baldita.lt/wp-content/uploads/15-2.jpg",
+   "section_on_source": "spintos",
+   "processing": "crop + resize only"
+  },
+  {
+   "file": "gal-08.webp",
+   "w": 960,
+   "h": 720,
+   "bytes": 84638,
+   "source": "https://baldita.lt/wp-content/uploads/7-1-min.jpg",
+   "section_on_source": "vaiku",
+   "processing": "crop + resize only"
+  },
+  {
+   "file": "gal-09.webp",
+   "w": 900,
+   "h": 1200,
+   "bytes": 68648,
+   "source": "https://baldita.lt/wp-content/uploads/1-min-1.jpg",
+   "section_on_source": "virtuves",
+   "processing": "crop + resize only"
+  },
+  {
+   "file": "gal-10.webp",
+   "w": 900,
+   "h": 1200,
+   "bytes": 20260,
+   "source": "https://baldita.lt/wp-content/uploads/10-min-2.jpg",
+   "section_on_source": "spintos",
+   "processing": "crop + resize only"
+  },
+  {
+   "file": "gal-12.webp",
+   "w": 988,
+   "h": 741,
+   "bytes": 94564,
+   "source": "https://baldita.lt/wp-content/uploads/8-3.jpg",
+   "section_on_source": "spintos",
+   "processing": "crop + resize only"
+  },
+  {
+   "file": "gal-13.webp",
+   "w": 1100,
+   "h": 825,
+   "bytes": 28488,
+   "source": "https://baldita.lt/wp-content/uploads/1-min-3.jpg",
+   "section_on_source": "virtuves",
+   "processing": "crop + resize only"
+  },
+  {
+   "file": "hero-mobile.webp",
+   "w": 1000,
+   "h": 1333,
+   "bytes": 57596,
+   "source": "https://baldita.lt/wp-content/uploads/1-min-7.jpg",
+   "section_on_source": "virtuves",
+   "processing": "crop + resize only"
+  },
+  {
+   "file": "hero.webp",
+   "w": 1500,
+   "h": 1875,
+   "bytes": 104184,
+   "source": "https://baldita.lt/wp-content/uploads/1-min-7.jpg",
+   "section_on_source": "virtuves",
+   "processing": "crop + resize only"
+  },
+  {
+   "file": "kat-kiti.webp",
+   "w": 1000,
+   "h": 750,
+   "bytes": 64740,
+   "source": "https://baldita.lt/wp-content/uploads/61321613_2378375342250087_180252879695642624_o.jpg",
+   "section_on_source": "kiti",
+   "processing": "crop + resize only"
+  },
+  {
+   "file": "kat-prieskambaris.webp",
+   "w": 800,
+   "h": 600,
+   "bytes": 34398,
+   "source": "https://baldita.lt/wp-content/uploads/1.jpg",
+   "section_on_source": "prieskambario",
+   "processing": "crop + resize only"
+  },
+  {
+   "file": "kat-spintos.webp",
+   "w": 909,
+   "h": 682,
+   "bytes": 43160,
+   "source": "https://baldita.lt/wp-content/uploads/4-1-1.jpg",
+   "section_on_source": "spintos",
+   "processing": "crop + resize only"
+  },
+  {
+   "file": "kat-svetaines.webp",
+   "w": 1000,
+   "h": 750,
+   "bytes": 64756,
+   "source": "https://baldita.lt/wp-content/uploads/1-10.jpg",
+   "section_on_source": "svetaines",
+   "processing": "crop + resize only"
+  },
+  {
+   "file": "kat-vaiku.webp",
+   "w": 1000,
+   "h": 750,
+   "bytes": 45978,
+   "source": "https://baldita.lt/wp-content/uploads/5-2-min-1.jpg",
+   "section_on_source": "vaiku",
+   "processing": "crop + resize only"
+  },
+  {
+   "file": "kat-virtuves.webp",
+   "w": 1000,
+   "h": 750,
+   "bytes": 85424,
+   "source": "https://baldita.lt/wp-content/uploads/3-8.jpg",
+   "section_on_source": "virtuves",
+   "processing": "crop + resize only"
+  },
+  {
+   "file": "og.jpg",
+   "w": 1200,
+   "h": 630,
+   "bytes": 84539,
+   "source": "https://baldita.lt/wp-content/uploads/1-min-2.jpg",
+   "section_on_source": "virtuves",
+   "processing": "crop + resize only"
+  }
+ ]
+}
