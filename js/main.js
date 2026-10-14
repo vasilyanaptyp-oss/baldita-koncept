@@ -1,5 +1,5 @@
 /* ============================================================
-   Baldita — koncepcija. Sąveika ir animacijos.
+   Baldita - koncepcija. Sąveika ir animacijos.
    Viskas be išorinių bibliotekų; animuojamos tik transform,
    opacity ir clip-path savybės, kad naršyklė galėtų dirbti
    kompozitoriaus lygmenyje.
@@ -26,7 +26,7 @@
 
   /* ----------------------------------------------------------
      2. Mobilusis meniu
-     Uždarytas meniu turi dingti ir iš tab tvarkos — todėl CSS
+     Uždarytas meniu turi dingti ir iš tab tvarkos - todėl CSS
      naudoja visibility su uždelsimu, o čia tvarkomas fokusas.
      ---------------------------------------------------------- */
   var burger = $('#burger'), mnav = $('#mnav'), mnavX = $('#mnavX');
@@ -51,7 +51,7 @@
     if (open) {
       setTimeout(function () { mnavX && mnavX.focus(); }, 60);
     } else if (returnFocus !== false) {
-      // Fokusas grįžta į mygtuką, kuris meniu atidarė — bet ne tada,
+      // Fokusas grįžta į mygtuką, kuris meniu atidarė - bet ne tada,
       // kai meniu užsidaro paspaudus nuorodą (ten fokusas eina toliau).
       burger.focus();
     }
@@ -66,10 +66,10 @@
   });
 
   /* ----------------------------------------------------------
-     3. Galerija — sugeneruojama iš duomenų, kad HTML liktų švarus
+     3. Galerija - sugeneruojama iš duomenų, kad HTML liktų švarus
      ---------------------------------------------------------- */
   /* Tvarka parinkta taip, kad trijuose stulpeliuose gulsčios ir
-     stačios nuotraukos kaitaliotųsi — tada stulpeliai baigiasi
+     stačios nuotraukos kaitaliotųsi - tada stulpeliai baigiasi
      maždaug viename lygyje. */
   var GAL = [
     { f: 'gal-13', w: 1100, h: 825, cat: 'Virtuvės baldai', cap: 'Balta virtuvė be rankenėlių su ilga darbo zona.', alt: 'Balta virtuvė be rankenėlių su ilgu stalviršiu palei langą.' },
@@ -116,7 +116,7 @@
   }
 
   /* ----------------------------------------------------------
-     4. Lightbox — darbai ir galerija viename sąraše
+     4. Lightbox - darbai ir galerija viename sąraše
      ---------------------------------------------------------- */
   var WORKS = [
     { f: 'darbas-02', cat: 'Virtuvės baldai', cap: 'Virtuvė su sala ir aukštais moduliais.' },
@@ -231,7 +231,7 @@
     }, { rootMargin: '0px 0px -8% 0px', threshold: 0.06 });
     rvs.forEach(function (el) { io.observe(el); });
 
-    // apsauginis šlavimas — jei naršyklė praleido greitą slinkimą
+    // apsauginis šlavimas - jei naršyklė praleido greitą slinkimą
     sweep = function () {
       rvs.forEach(function (el) {
         if (el.classList.contains('is-in')) return;
@@ -257,7 +257,7 @@
   }
 
   /* ----------------------------------------------------------
-     7. Proceso juosta — pildosi kartu su slinkimu
+     7. Proceso juosta - pildosi kartu su slinkimu
      ---------------------------------------------------------- */
   var steps = $('#steps'), bar = $('#stepsBar');
   var stepEls = $$('.step');
@@ -277,7 +277,7 @@
   }
 
   /* ----------------------------------------------------------
-     8. Vienintelis autorinis judesys — labai subtilus hero gylis.
+     8. Vienintelis autorinis judesys - labai subtilus hero gylis.
      ---------------------------------------------------------- */
   var heroFrame = $('.hero__fig .frame');
   var heroImg = heroFrame ? $('img', heroFrame) : null;
@@ -340,7 +340,7 @@
   updateSteps();
 
   /* ----------------------------------------------------------
-     9. Forma — patikra naršyklėje, be jokio backend'o
+     9. Forma: patikra naršyklėje, tada paruoštas laiškas į info@baldita.lt
      ---------------------------------------------------------- */
   var form = $('#form'), done = $('#formDone');
 
@@ -376,7 +376,7 @@
         setError(contact, 'e-contact', 'Įrašykite telefoną arba el. paštą.');
         bad = bad || contact;
       } else if (!looksLikeContact(contact.value)) {
-        setError(contact, 'e-contact', 'Patikrinkite kontaktus — reikia telefono numerio arba el. pašto.');
+        setError(contact, 'e-contact', 'Patikrinkite kontaktus - reikia telefono numerio arba el. pašto.');
         bad = bad || contact;
       } else setError(contact, 'e-contact', '');
 
@@ -387,12 +387,25 @@
 
       if (bad) { bad.focus(); return; }
 
+      var type = $('#f-type'), city = $('#f-city');
+      var body = [
+        'Vardas: ' + name.value.trim(),
+        'Telefonas arba el. paštas: ' + contact.value.trim(),
+        'Kokių baldų reikia: ' + (type ? type.value : '-'),
+        'Miestas: ' + (city && city.value.trim() ? city.value.trim() : '-'),
+        'Trumpai apie projektą: ' + msg.value.trim()
+      ].join('\n');
+      var mail = document.createElement('a');
+      mail.href = 'mailto:info@baldita.lt?subject=' + encodeURIComponent('Užklausa iš Baldita svetainės') +
+        '&body=' + encodeURIComponent(body);
+
       form.hidden = true;
       if (done) {
         done.hidden = false;
         done.setAttribute('tabindex', '-1');
         done.focus();
       }
+      mail.click();
     });
 
     $$('#form input, #form textarea').forEach(function (el) {
